@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CityActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="14dp"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/app_name"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/cityImagesSlider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:transitionName="city_image"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/name_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/black"
+                    android:transitionName="city_name"
+                    android:text="Karachi"/>
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/description_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:transitionName="city_description"
+                    android:text="@string/Karachi_Details"
+                    android:justificationMode="inter_word"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bed"
+                        android:layout_marginEnd="5dp"/>
+
+                    <syncbros.com.explore.CustomTextView
+                        android:id="@+id/room_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Karachi_room_info"
+                        android:justificationMode="inter_word"/>
+
+
+                </LinearLayout>
+
+                <syncbros.com.explore.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tourist Attractions"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"/>
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/tourist_attractions_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

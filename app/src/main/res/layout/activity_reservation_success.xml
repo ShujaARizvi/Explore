@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ReservationSuccess">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="14dp"
+        android:theme="@android:style/ThemeOverlay.Material.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/app_name"
+        />
+
+    <cdflynn.android.library.checkview.CheckView
+        android:id="@+id/reservation_complete"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:checkView_strokeColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        app:checkView_strokeWidth="20dp"/>
+
+    <syncbros.com.explore.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reservation_complete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Reservation Complete"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel Reservation"
+            android:textColor="@color/white"
+            android:background="@drawable/button_shape_cancel"/>
+
+        <Button
+            android:id="@+id/browse_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Browse More"
+            android:textColor="@color/white"
+            android:background="@drawable/button_shape_browse"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

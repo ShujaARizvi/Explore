@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:elevation="25dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/card_view_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="1dp">
+
+            <ImageView
+                android:id="@+id/hotel_image_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/islamabad2"
+                android:transitionName="transitionImage"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:padding="20dp">
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/hotel_name_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Pearl Continental"
+                    android:transitionName="transitionHotelName"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/hotel_image_search"
+                android:layout_alignBottom="@id/hotel_image_search"
+                android:transitionName="transitionRoomCategory">
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/room_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/platnium_shape"
+                    android:layout_margin="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:text="PLATINUM" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/hotelLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:text="Address"
+                    android:transitionName="transitionAddress"/>
+
+                <syncbros.com.explore.CustomTextView
+                    android:id="@+id/hotel_search_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:text="PRICE"
+                    android:transitionName="transitionPrice"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <syncbros.com.explore.CustomTextView
+                        android:id="@+id/stars_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_marginEnd="5dp"
+                        android:text="5 Stars" />
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="24dp"-->
+                        <!--android:layout_height="24dp"-->
+                        <!--android:src="@drawable/star_shuja"/>-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:gravity="right"
+                    android:layout_weight="1">
+
+                    <syncbros.com.explore.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_gravity="center_vertical"
+                        android:text="Free cancellation"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Explore</string>
+    <string name="ip">http://www.exploretripadvisors.somee.com/api</string>
+
+
+    <!--City Descriptions-->
+    <string name="Karachi">City of lights with an emerging food scenes and flourishing world\'s third-largest ship-breaking yard</string>
+    <string name="Lahore">Most popular for its array of tourist activities, from seeing priceless artifacts to historical sites to shopping places to a variety of food scenes</string>
+    <string name="Islamabad">Discover the historical heritage, diverse culture, high adventure, and unmatched natural beauty of the Islamabad Capital Territory</string>
+    <string name="Murree">A charming colonial town nestled in the Himalayan foothills, lined with cafes, restaurants and souvenir shops</string>
+
+    <!--City Details-->
+    <string name="Karachi_Details">Karachi is the capital of the Pakistani province of Sindh. It is the most populous city in Pakistan, and sixth-most-populous city proper in the world. Ranked as a beta world city, the city is Pakistan\'s premier industrial and financial centre. Karachi is also Pakistan\'s most cosmopolitan city. Situated on the Arabian Sea, Karachi serves as a transport hub, and is home to Pakistan\'s two largest seaports, the Port of Karachi and Port Bin Qasim, as well as the busiest airport in Pakistan.</string>
+    <string name="Lahore_Details">Lahore is one of the major cities of Pakistan in the province of Punjab, and is the country’s second-most populous city after Karachi. The city is located in the north-eastern end of Pakistan\'s Punjab province. Lahore is one of Pakistan\'s wealthiest cities with an estimated GDP of $127 billion as of 2017.</string>
+    <string name="Islamabad_Details">Islamabad is the capital city of Pakistan, and is federally administered as part of the Islamabad Capital Territory. Built as a planned city in the 1960s to replace Karachi as Pakistan\'s capital, Islamabad is noted for its high standards of living, safety, and abundant greenery. With a population of 1,014,825 as per the 2017 Census, Islamabad is the 9th largest city in Pakistan, while the larger Islamabad-Rawalpindi metropolitan area is the country\'s third largest with a population exceeding four million.</string>
+    <string name="Murree_Details">Murree is a mountain resort town, located in the Galyat region of the Pir Panjal Range, within the Rawalpindi District of Punjab, Pakistan. It forms the outskirts of the Islamabad-Rawalpindi metropolitan area, and is about 30 km northeast of Islamabad. It has average altitude of 2,291 metres.</string>
+
+    <!--Room Informations-->
+    <string name="Karachi_room_info">3-star hotel averaging Rs 11,837, 5-star averaging Rs 16,456</string>
+    <string name="Lahore_room_info">3-star hotel averaging Rs 7,831, 5-star averaging Rs 17,398</string>
+    <string name="Islamabad_room_info">3-star hotel averaging Rs 9,883, 5-star averaging Rs 32,282</string>
+    <string name="Murree_room_info">3-star hotel averaging Rs 12,733</string>
+
+    <!--Tourist Attractions-->
+    <string name="Karachi_tourist_attractions">Clifton Beach,Mazar-e-Quaid,Maritime Museum,Port Grand,Ferere Hall</string>
+    <string name="Lahore_tourist_attractions">Badshahi Mosque,Lahore Museum,Minar-e-Pakistan,Wagah Border,Lahore Fort</string>
+    <string name="Islamabad_tourist_attractions">Faisal Mosque,The Pakistan Monument,Margalla hills and Daman-e-Koh Park,Rawal Lake,Monal Restaurant</string>
+    <string name="Murree_tourist_attractions">Bhurban,Mall Road,Nathia Gali,Ayubia,Patratia</string>
+
+    <string name="preference">DatePreference</string>
+    <string name="reservation_preference">ReservationPreference</string>
+
+</resources>
